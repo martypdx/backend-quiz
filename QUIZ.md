@@ -4,7 +4,7 @@ Create an express/node/mongoose/mongo server for simple restaurant review site.
 
 ## Rules
 
-* You must complete this work on your own within the alotted time
+* You must complete this work on your own within the allotted time
   * Keep a good commit history to show progression of work.
 * You may use normal resources that a software developer uses on the job (docs, google, your prior work)
 * You may install npm packages of your choosing
@@ -12,13 +12,13 @@ Create an express/node/mongoose/mongo server for simple restaurant review site.
   * Highly recommended to implement what is needed, no more no less
   * Blind boilerplate may not be helpful and will likely create more work
   * Focus effort on requirements
-* You may ignore the presense or absense of `__v` mongoose property on 
+* You may ignore the presence or absence of `__v` mongoose property on 
 any data format requirements (do whatever you need to with `__v` to get to passing tests)
 * There are very specific testing requirements listed (after the API section)
   * You are not required to do any more than this
 * You have 100 minutes to complete
 * Total possible points are 70. You will be graded out of 50 points
-* There is more work here than you may be able to finish in alotted time. Submit what you have. 
+* There is more work here than you may be able to finish in allotted time. Submit what you have. 
 * Demonstrating what you know by having green tests that pass and show working code.
 
 ## Overarching requirements
@@ -72,7 +72,7 @@ property, which is an array of reviews.
 * Check that the user (represented by the `email` prop) does **NOT** already have a review for this restaurant. If they 
 do, return 400 error and don't save the review.
 
-### Retrieve list of restuarants and their reviews
+### Retrieve list of restaurants and their reviews
 
 #### `GET` to `/restaurants`:
 
@@ -99,7 +99,7 @@ Same as above, except only return restaurants that match that cuisine
 You only need to include the following e2e test scenario (note that only things marked **Test** 
 need to assert correctness):
 
-* Connect to a test databse and drop database before test
+* Connect to a test database and drop database before test
 * Test this workflow (structure into `describe`/`it`):
   * POST two restaurants, each of a different type of cuisine
   * **Test** that `GET` `/restaurants` returns both restaurants
